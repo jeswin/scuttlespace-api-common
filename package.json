@@ -1,0 +1,19 @@
+{
+  "name": "scuttlespace-api-common",
+  "version": "0.0.5",
+  "author": "Jeswin Kumar<jeswinpk@agilehead.com>",
+  "main": "dist/index",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "./build.sh"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^10.5.1"
+  },
+  "dependencies": {
+    "scuttlespace-api-common": "^0.0.5",
+    "scuttlespace-service-auth": "^0.0.23",
+    "standard-api": "^0.0.2"
+  }
+}
