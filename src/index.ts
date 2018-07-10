@@ -55,3 +55,11 @@ export async function parseServiceResult<T>(
     );
   }
 }
+
+export interface IDbConfig {
+  database: string;
+  host: string;
+  port: number;
+  user: string;
+  password: string;
+}
