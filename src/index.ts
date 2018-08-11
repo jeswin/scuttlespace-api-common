@@ -43,7 +43,7 @@ export class ServiceResultParseError {
 export async function parseServiceResult<T>(
   serviceResult: ServiceResult<T> | Promise<ServiceResult<T>>,
   errorTag?: string
-) {
+): Promise<T> {
   const result = await serviceResult;
   if (result.type === "data") {
     return result.data;
