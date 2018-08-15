@@ -1,5 +1,5 @@
 {
-  "name": "scuttlespace-api-common",
+  "name": "scuttlespace-service-common",
   "version": "0.0.8",
   "author": "Jeswin Kumar<jeswinpk@agilehead.com>",
   "main": "dist/index",
