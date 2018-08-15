@@ -1,12 +1,12 @@
 import { CallResult, IData, IError } from "standard-api";
 export { ICallContext } from "standard-api";
 
-export interface IScuttleSpaceError {
+export interface IScuttlespaceError {
   code: string;
   message: string;
 }
 
-export type ServiceResult<T> = CallResult<T, IScuttleSpaceError>;
+export type ServiceResult<T> = CallResult<T, IScuttlespaceError>;
 
 export class ValidResult<T> implements IData<T> {
   type: "data";
@@ -18,11 +18,11 @@ export class ValidResult<T> implements IData<T> {
   }
 }
 
-export class ErrorResult implements IError<IScuttleSpaceError> {
+export class ErrorResult implements IError<IScuttlespaceError> {
   type: "error";
-  error: IScuttleSpaceError;
+  error: IScuttlespaceError;
 
-  constructor(error: IScuttleSpaceError) {
+  constructor(error: IScuttlespaceError) {
     this.type = "error";
     this.error = error;
   }
