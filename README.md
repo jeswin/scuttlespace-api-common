@@ -1,2 +1,2 @@
 # scuttlespace-api
-Common interfaces and classes for ScuttleSpace API
+Common interfaces and classes for Scuttlespace API
